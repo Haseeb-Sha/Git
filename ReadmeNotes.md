@@ -45,3 +45,7 @@ git pull -Rebase
 this stacks up you commit and another commit , saving changes of one commit to another)
 
 # Resolving Merge Conflict
+git checkout master 
+git pull 
+git merge dev
+git push 
