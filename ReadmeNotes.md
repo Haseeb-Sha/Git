@@ -15,3 +15,4 @@ git add .
 git commit
 git remote add origin url.git
 git push --set-upstream origin master
+git push 
