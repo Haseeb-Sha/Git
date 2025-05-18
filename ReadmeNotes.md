@@ -38,7 +38,7 @@ git checkout master
 git checkout -d beanch_name
 git pull
 
-# Git Rebase( Avoiding Merge merge branch commits git pull then push )
+# Git Rebase( Avoiding Merge merge branch commits git pull then push)
 pushed two commits ( one by user and merge commit)
 in order to avoid this we use
 git pull -Rebase
