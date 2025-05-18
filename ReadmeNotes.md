@@ -50,4 +50,9 @@ this stacks up you commit and another commit , saving changes of one commit to a
 git checkout master 
 git pull 
 git merge dev
+git push
+        by using git rebase
+git pull -r 
+resolve merge conlficts viewing the file
+git rebase --continue 
 git push 
