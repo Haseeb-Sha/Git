@@ -46,7 +46,7 @@ git push
 this stacks up you commit and another commit , saving changes of one commit to another)
 
 
-# Resolving Merge Conflict---- 
+# Resolving Merge Conflictssss 
 git checkout master 
 git pull 
 git merge dev
