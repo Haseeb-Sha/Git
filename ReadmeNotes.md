@@ -6,6 +6,7 @@ git branch
 git status 
 git add file name or .
 git commit -m "message"
+git push 
 git log
 # when you have local repo and want to push to git 
 git init
