@@ -42,6 +42,7 @@ git pull
 pushed two commits ( one by user and merge commit)
 in order to avoid this we use
 git pull -Rebase
+git push
 this stacks up you commit and another commit , saving changes of one commit to another)
 
 
