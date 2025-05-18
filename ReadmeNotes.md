@@ -46,7 +46,6 @@ git push
 this stacks up you commit and another commit , saving changes of one commit to another)
 
 # Resolving Merge Conflicts 
-
 git checkout master 
 git pull 
 git merge dev
@@ -56,3 +55,29 @@ git pull -r
 resolve merge conlficts viewing the file
 git rebase --continue 
 git push 
+
+# Git ignore ( not allowing file to upload to repo) 
+create a file .gitignore
+git rm -r --cached .
+add drirectory .foldername/* foldername/* 
+
+#Git Stash(saving your local changes without commit and move to andother branch)
+git stash
+git stash pop
+
+# Go back in time (used  for testing , only file are visible) 
+git checkout commit_hash
+goit checkout branch_name
+
+#resetting last commit
+git reset --hard  HEAD~1 (1 specifies last commits) (go back to last commit)
+git reset HEAD~1 (changes remains there not replaced to prev commit)
+git add .
+git commit --amend ( don't commit but add to last commit)
+		removing commit from remote
+git reset --hard HEAD~1 (locally)
+git push --force ( changed to remote as well)
+
+should be used in poduction (another way)
+git revert commit_id
+git push
