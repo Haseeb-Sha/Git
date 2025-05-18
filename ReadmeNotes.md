@@ -45,8 +45,8 @@ git pull -Rebase
 git push
 this stacks up you commit and another commit , saving changes of one commit to another)
 
-
-# Resolving Merge Conflictssss 
+# Resolving Merge Conflicts 
+>>>>>>> 3e1c5f1 (fina boss)
 git checkout master 
 git pull 
 git merge dev
