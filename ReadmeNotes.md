@@ -1,6 +1,5 @@
 # when you want to clone repo on git and do changes
-gti clone a repo  .git
-for authentication we need to add ssh keys to my git 
+git clone repo.git
 git config 
 git branch 
 git status 
@@ -12,7 +11,40 @@ git log
 git init
 git status
 git add .
-git commit
+git config --global user.email "abc@gmail.com"
+git commit -m "messgae"
 git remote add origin url.git
 git push --set-upstream origin master
 git push 
+
+# Creating branches (Either in remote or local)
+git checkout master
+git checkout -b "use feature"
+git push --set-upstream origin branch_name
+git pull 
+git checkout branch_name
+
+# Creating pull Request( allowing senior to cross verify and merge to master)
+in another branch 
+git add. git commit -m
+then on UI
+create merge or pul request ( you can check in on UI the changes)
+either approve or cancel (with comments)
+approve and merge
+
+# Deleting branches
+two option , one merge and delete then branch or merge leave as it is
+git checkout master
+git checkout -d beanch_name
+git pull
+
+# Git Rebase( Avoiding Merge merge branch commits git pull then push )
+pushed two commits ( one by user and merge commit)
+in order to avoid this we use
+git pull -Rebase
+
+
+
+
+
+
