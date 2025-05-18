@@ -44,4 +44,4 @@ in order to avoid this we use
 git pull -Rebase
 
 
-# Resolving Merge Conflicts
+# Resolving Merge Conflict
