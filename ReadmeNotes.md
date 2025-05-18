@@ -1,5 +1,4 @@
-# when you want to clone repo on git and do changes,
-create a private repo 
+# when you want to clone repo on git and do changes
 gti clone a repo  .git
 for authentication we need to add ssh keys to my git 
 git config 
